@@ -1,67 +1,14 @@
 package com.reyeda.screenmatch.modelos;
 
-public class Pelicula {
-    //private modificador de variables
-    //variables
-    private String nombre ;
-    private int fechaDeLanzamiento;
-    private int duracionEnMinutos;
-    private boolean inluidoPlan;
-    private double sumaEval;
-    private int totalEval;
-    //metodos usados y funcionalidad del codigo
-
-    // setter's
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+public class Pelicula extends Titulo{
+//variable
+    private String director;
+    //setter
+    public void setDirector(String director) {
+        this.director = director;
     }
-
-    public void setFechaDeLanzamiento(int fechaDeLanzamiento) {
-        this.fechaDeLanzamiento = fechaDeLanzamiento;
+//getter
+    public String getDirector() {
+        return director;
     }
-
-    public void setDuracionEnMinutos(int duracionEnMinutos) {
-        this.duracionEnMinutos = duracionEnMinutos;
-    }
-
-    public void setInluidoPlan(boolean inluidoPlan) {
-        this.inluidoPlan = inluidoPlan;
-    }
-//getter's
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public int getFechaDeLanzamiento() {
-        return fechaDeLanzamiento;
-    }
-
-    public int getDuracionEnMinutos() {
-        return duracionEnMinutos;
-    }
-
-    public boolean isInluidoPlan() {
-        return inluidoPlan;
-    }
-
-    public int getTotalEval(){
-        return totalEval;
-    }
-    //metodo void
-   public void muestraFichaTecnica(){
-       System.out.println("El nombre de la pelicula pelicula es: " + nombre);
-       System.out.println("Se estreno en el año: " + fechaDeLanzamiento);
-       System.out.println("dura: " + duracionEnMinutos + " min");
-   }
-   public void evalua(double nota){
-       sumaEval += nota;
-       //se suman las evaluaciones dadas
-       totalEval++;
-   }
-//metodo double
-  public double calculaMedia(){
-       return sumaEval / totalEval;
-   }
-
 }

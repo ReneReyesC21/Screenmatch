@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ccb35e1-78a2-47e7-8e32-6ae4ecc32fa2" name="Changes" comment="Implementacion de los metdos asi como sus llamadas ala otra clase creada">
+    <list default="true" id="8ccb35e1-78a2-47e7-8e32-6ae4ecc32fa2" name="Changes" comment="cambiando a setter y getter con el fin de poder reducir mas codigo asi como hacer que el usuario no pueda modificar a su gusto las calificaciones o valores dados por otros usuarios">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/calculos/CalculadoraTiempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Pelicula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Pelicula.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ReneReyesC21"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ReneReyesC21&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ReneReyesC21/Screenmatch.git",
-    "accountId": "66a9778f-4510-490d-ae0c-ee372df96b60"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ReneReyesC21/Screenmatch.git&quot;,
+    &quot;accountId&quot;: &quot;66a9778f-4510-490d-ae0c-ee372df96b60&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2j2AGzax24RxaWeSLsoqu8dwpfh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,14 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Principal.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
@@ -94,12 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720576820126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cambiando a setter y getter con el fin de poder reducir mas codigo asi como hacer que el usuario no pueda modificar a su gusto las calificaciones o valores dados por otros usuarios">
+      <option name="closed" value="true" />
+      <created>1720579286679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720579286679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio del screenmatch" />
     <MESSAGE value="Implementacion de los metdos asi como sus llamadas ala otra clase creada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacion de los metdos asi como sus llamadas ala otra clase creada" />
+    <MESSAGE value="cambiando a setter y getter con el fin de poder reducir mas codigo asi como hacer que el usuario no pueda modificar a su gusto las calificaciones o valores dados por otros usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambiando a setter y getter con el fin de poder reducir mas codigo asi como hacer que el usuario no pueda modificar a su gusto las calificaciones o valores dados por otros usuarios" />
   </component>
 </project>

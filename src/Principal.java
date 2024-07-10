@@ -1,4 +1,6 @@
+import com.reyeda.screenmatch.calculos.CalculadoraTiempo;
 import com.reyeda.screenmatch.modelos.Pelicula;
+import com.reyeda.screenmatch.modelos.Serie;
 
 public class Principal {
     //private es una restriccion que se puede usar para que otro usuario no pueda modificar un dato
@@ -18,24 +20,25 @@ public class Principal {
         System.out.println(miPelicula.getTotalEval());
         System.out.println(miPelicula.calculaMedia());
 
+        Serie casaDragon = new Serie();
+        casaDragon.setNombre("Suits");
+        casaDragon.setFechaDeLanzamiento(2010);
+        casaDragon.setTemporada(7);
+        casaDragon.setMinutisPorEp(50);
+        casaDragon.setEpisodioPorTemp(12);
+        casaDragon.muestraFichaTecnica();
+        System.out.println(casaDragon.getDuracionEnMinutos());
 
+        Pelicula otraPeli = new Pelicula();
+        otraPeli.setNombre("Batman vs Superman");
+        otraPeli.setFechaDeLanzamiento(2017);
+        otraPeli.setDuracionEnMinutos(90);
 
+        CalculadoraTiempo calculadora = new CalculadoraTiempo();
+        calculadora.incluye(miPelicula);
+        calculadora.incluye(casaDragon);
+        calculadora.incluye(otraPeli);
+        System.out.println("Tiempo necesario para ver tus titulos favoritos son: " + calculadora.getTiempoTotal() + " min");
 
-
-
-
-
-
-        //otro valor
-//        com.reyeda.screenmatch.modelos.Pelicula otraPeli = new com.reyeda.screenmatch.modelos.Pelicula();
-//        otraPeli.nombre = "Batman vs Superman";
-//        otraPeli.fechaDeLanzamiento = 2024;
-//        otraPeli.duracionEnMinutos = 90;
-//llamada de metodo void
-//        otraPeli.muestraFichaTecnica();
-//        otraPeli.evalua(7);
-//        otraPeli.evalua(9);
-//
-//        System.out.println(otraPeli.sumaEval);
     }
 }
