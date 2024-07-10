@@ -1,4 +1,6 @@
 import com.reyeda.screenmatch.calculos.CalculadoraTiempo;
+import com.reyeda.screenmatch.calculos.FiltroRec;
+import com.reyeda.screenmatch.modelos.Episodio;
 import com.reyeda.screenmatch.modelos.Pelicula;
 import com.reyeda.screenmatch.modelos.Serie;
 
@@ -39,6 +41,15 @@ public class Principal {
         calculadora.incluye(casaDragon);
         calculadora.incluye(otraPeli);
         System.out.println("Tiempo necesario para ver tus titulos favoritos son: " + calculadora.getTiempoTotal() + " min");
+//filtrado
+        FiltroRec filtroRec = new FiltroRec();
+        filtroRec.filtrar(miPelicula);
 
+        Episodio episodio = new Episodio();
+        episodio.setNumeroEp(1);
+        episodio.setNombre("Piloto");
+        episodio.setSerie(casaDragon);
+        episodio.setTotalvil(2);
+        filtroRec.filtrar(episodio);
     }
 }

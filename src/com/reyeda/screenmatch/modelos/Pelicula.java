@@ -1,6 +1,8 @@
 package com.reyeda.screenmatch.modelos;
 
-public class Pelicula extends Titulo{
+import com.reyeda.screenmatch.calculos.Clasificable;
+
+public class Pelicula extends Titulo implements Clasificable {
 //variable
     private String director;
     //setter
@@ -10,5 +12,10 @@ public class Pelicula extends Titulo{
 //getter
     public String getDirector() {
         return director;
+    }
+
+    @Override
+    public int getClasificable() {
+        return (int) (calculaMedia() / 2);
     }
 }
