@@ -6,6 +6,10 @@ public class Serie  extends Titulo{
     int episodioPorTemp;
     int minutisPorEp;
 
+    public Serie(String nombre, int fechaDeLanzamiento) {
+        super(nombre, fechaDeLanzamiento);
+    }
+
 
     //metodos
 

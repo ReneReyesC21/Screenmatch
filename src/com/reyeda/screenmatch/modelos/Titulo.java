@@ -1,6 +1,6 @@
 package com.reyeda.screenmatch.modelos;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo>{
     //private modificador de variables
     //variables
     private String nombre ;
@@ -10,6 +10,12 @@ public class Titulo {
     private double sumaEval;
     private int totalEval;
     //metodos usados y funcionalidad del codigo
+
+    //constructor
+    public Titulo(String nombre, int fechaDeLanzamiento) {
+        this.nombre = nombre;
+        this.fechaDeLanzamiento = fechaDeLanzamiento;
+    }
 
     // setter's
     public void setNombre(String nombre) {
@@ -64,4 +70,8 @@ public class Titulo {
         return sumaEval / totalEval;
     }
 
+    @Override
+    public int compareTo(Titulo otroTit) {
+        return this.getNombre().compareTo(otroTit.getNombre());
+    }
 }
