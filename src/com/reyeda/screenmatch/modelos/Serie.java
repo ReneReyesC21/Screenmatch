@@ -43,4 +43,9 @@ public class Serie  extends Titulo{
     public int getMinutisPorEp() {
         return minutisPorEp;
     }
+
+    @Override
+    public String toString() {
+        return "Serie:" + this.getNombre() + " (" + this.getFechaDeLanzamiento()+")";
+    }
 }

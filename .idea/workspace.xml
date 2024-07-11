@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ccb35e1-78a2-47e7-8e32-6ae4ecc32fa2" name="Changes" comment="agregandp el filtro qeu este puede tener para la avloracion en estrellas">
-      <change afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/Principal/PrincipalListas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/Principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reyeda/screenmatch/calculos/CalculadoraTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/calculos/CalculadoraTiempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Pelicula.java" afterDir="false" />
+    <list default="true" id="8ccb35e1-78a2-47e7-8e32-6ae4ecc32fa2" name="Changes" comment="ordenamiento de lista">
+      <change beforePath="$PROJECT_DIR$/src/com/reyeda/screenmatch/Principal/PrincipalListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/Principal/PrincipalListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reyeda/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Principal.executor": "Run",
-    "Application.PrincipalListas.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrincipalListas.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.reyeda.screenmatch.Principal.Principal" />
@@ -127,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720626962431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ordenamiento de lista">
+      <option name="closed" value="true" />
+      <created>1720727261743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720727261743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +139,7 @@
     <MESSAGE value="cambiando a setter y getter con el fin de poder reducir mas codigo asi como hacer que el usuario no pueda modificar a su gusto las calificaciones o valores dados por otros usuarios" />
     <MESSAGE value="Implementando la herencia, polimorfismo" />
     <MESSAGE value="agregandp el filtro qeu este puede tener para la avloracion en estrellas" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregandp el filtro qeu este puede tener para la avloracion en estrellas" />
+    <MESSAGE value="ordenamiento de lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="ordenamiento de lista" />
   </component>
 </project>

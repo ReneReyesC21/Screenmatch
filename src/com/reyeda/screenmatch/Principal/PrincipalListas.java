@@ -6,6 +6,7 @@ import com.reyeda.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class PrincipalListas {
     public static void main(String[] args) {
@@ -34,7 +35,7 @@ public class PrincipalListas {
                 System.out.println(pelicula.getClasificable());
             }
         }
-//ordenar lista
+        //ordenar lista
         ArrayList<String> listaDeArtistas = new ArrayList<>();
         listaDeArtistas.add("Robert Downy Jr.");
         listaDeArtistas.add("Cris Evans");
@@ -45,6 +46,9 @@ public class PrincipalListas {
         System.out.println("Lista de Artistas ordenada: " + listaDeArtistas);
 
         Collections.sort(lista);
-        System.out.println("Listaa de titulo ordenado: " + lista);
+        System.out.println("Lista de titulo ordenado: " + lista);
+
+        lista.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento));
+        System.out.println("Lista ordenada por fecha: " + lista);
     }
 }
