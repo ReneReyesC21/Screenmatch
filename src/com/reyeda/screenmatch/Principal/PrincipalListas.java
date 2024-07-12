@@ -4,9 +4,7 @@ import com.reyeda.screenmatch.modelos.Pelicula;
 import com.reyeda.screenmatch.modelos.Serie;
 import com.reyeda.screenmatch.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
 
 public class PrincipalListas {
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class PrincipalListas {
         Pelicula p1 = peliculaRena;
 
         //arrayList
-        ArrayList<Titulo> lista = new ArrayList<>();
+        List<Titulo> lista = new LinkedList<>();
         lista.add(miPelicula);
         lista.add(otraPeli);
         lista.add(peliculaRena);
